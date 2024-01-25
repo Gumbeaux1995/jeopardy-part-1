@@ -54,16 +54,8 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    /* grid-template-areas: 
-      "one     one     one     one     one     one"
-      "two     two     two     two     two     two"
-      "three   three   three   three   three   three"
-      "four    four    four    four    four    four"
-      "five    five    five    five    five    five"
-      "six     six     six     six     six     six"; */
   }
   .grid-item {
-    /* grid-area: one  */
     display: grid;
     border: 2px solid yellow;
   }
