@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(6, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    padding: 1em;
+  }
+  .grid-item {
+    display: grid;
+    background-color: blue;
+    justify-content: center;
+    color: yellow;
+    padding: 0.5em;
+  }
+  .user-input {
+    display:flex;
+    justify-content: center;
+    margin-top: 0.5em;
+  }
+  .guess-pass-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+  }
+  .score {
+    display: flex;
+    color: yellow;
+    margin-bottom: 1em;
+  }
+  .next-round {
+    display: flex;
+    justify-content: right;
+    margin-right: 8em;
+    margin-bottom: 1em;
+  }
+  .next-round a {
+    text-decoration: none;
+  }

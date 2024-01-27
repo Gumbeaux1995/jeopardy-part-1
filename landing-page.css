@@ -7,13 +7,20 @@
 /* Picture Of Ken Jennings */
 .opening-picture {
     width: 100%;
+    /* height: 15em; */
     height: 15em;
     object-fit: contain;
+    margin-top: 0.5em;
 }
 /* Play Button To Begin Game */
 .play-button {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 10em;
+    margin-bottom: 8em;
+}
+.play-button a {
+    text-decoration: none;
+    font-size: 5em;
+    background-color: yellow;
+    Color:blue;
 }

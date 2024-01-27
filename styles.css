@@ -15,9 +15,17 @@
     font-size: 3em;
     font-family: Jazz LET, fantasy;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
  
 }
+/* Player Turn */
+.player-turn {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
 /* Footer Site Information */
 .footer {
     display: flex;
@@ -30,6 +38,7 @@
     width: 100%;
     justify-content: center;
 }
+/* Player Turn */
 .player-turn {
     color: yellow
 }
