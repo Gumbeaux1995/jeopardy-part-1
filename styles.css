@@ -14,30 +14,9 @@
     color: yellow;
     font-size: 3em;
     font-family: Jazz LET, fantasy;
-    height: auto;
-    width: 100%;
     justify-content: center;
     margin-bottom: 1em;
  
-}
-/* Box To Align And Contain Main Page Elements */
-.box {
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-/* Picture Of Ken Jennings */
-.opening-picture {
-    width: 100%;
-    height: 15em;
-    object-fit: contain;
-}
-/* Play Button To Begin Game */
-.play-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10em;
 }
 /* Footer Site Information */
 .footer {
@@ -51,11 +30,6 @@
     width: 100%;
     justify-content: center;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-  }
-  .grid-item {
-    display: grid;
-    border: 2px solid yellow;
-  }
+.player-turn {
+    color: yellow
+}
