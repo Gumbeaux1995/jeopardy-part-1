@@ -1,0 +1,42 @@
+.final-category {
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    font-family: Jazz LET, fantasy;
+    border: 2px solid black;
+    color: blue;
+    margin-bottom: 1em;
+    height: 3em;
+    width: 35em;
+    margin-left: 20em;
+    
+}
+.final-question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Jazz LET, fantasy;
+    border: 2px solid black;
+    color: yellow;
+    height: 10em;
+    width: 44em;
+    margin-bottom: 3em;
+    margin-left: 25em;
+}
+.bet-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+.final-answer-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+.bet-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10em;
+}
