@@ -1,12 +1,16 @@
+/* mobile */
+
+/* Grid parent container */
 .grid-container {
     display: grid;
     background-color: yellow;
-    grid-template-columns: repeat(6, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(6, 1fr);
     column-gap: 1em;
     row-gap: 1em;
     padding: 1em;
   }
+  /* Individual grid items */
   .grid-item {
     display: grid;
     background-color: blue;
@@ -14,27 +18,108 @@
     color: yellow;
     padding: 0.5em;
   }
+  /* User input for answers */
   .user-input {
     display:flex;
     justify-content: center;
     margin-top: 0.5em;
   }
+  /* Buttons for answering or passing to opposing player */
   .guess-pass-buttons {
     display: flex;
     justify-content: center;
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
+  /* Player scores */
   .score {
     display: flex;
     color: yellow;
     margin-bottom: 1em;
+    justify-content: space-between;
   }
+  /* Button to proceed to next round */
   .next-round {
     display: flex;
     justify-content: right;
-    margin-right: 8em;
+    margin-right: 1em;
     margin-bottom: 1em;
   }
+  /* Button link */
   .next-round a {
     text-decoration: none;
   }
+
+
+  /* Desktop */
+  @media (min-width: 780px) {
+    /* Grid parent container */
+    .grid-container {
+      display: grid;
+      background-color: yellow;
+      grid-template-columns: repeat(6, 1fr); 
+      grid-template-rows: repeat(6, 1fr);
+      column-gap: 1em;
+      row-gap: 1em;
+      padding: 1em;
+    }
+    /* Individual grid items */
+    .grid-item {
+      display: grid;
+      background-color: blue;
+      justify-content: center;
+      color: yellow;
+      padding: 0.5em;
+    }
+    /* User input for answers */
+    .user-input {
+      display:flex;
+      justify-content: center;
+      margin-top: 0.5em;
+    }
+    /* Buttons for answering or passing to opposing player */
+    .guess-pass-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 0.5em;
+    }
+     /* Player scores */
+    .score {
+      display: flex;
+      color: yellow;
+      margin-bottom: 1em;
+      justify-content: space-between;
+      padding-left: 4em;
+      padding-right: 4em;
+    }
+    /* Button to proceed to next round */
+    .next-round {
+      display: flex;
+      justify-content: right;
+      margin-right: 8em;
+      margin-bottom: 1em;
+    }
+    /* Button link */
+    .next-round a {
+      text-decoration: none;
+  } 
+  /* Column classes to properly order Desktop Grid */
+  .c1 {
+    order: 1;
+  }
+  .c2 {
+    order: 2;
+  }
+  .c3 {
+    order: 3;
+  }
+  .c4 {
+    order: 4;
+  }
+  .c5 {
+    order: 5;
+  }
+  .c6 {
+    order: 6;
+  }
+}

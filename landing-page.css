@@ -1,3 +1,4 @@
+/* Mobile */
 /* Box To Align And Contain Main Page Elements */
 .box {
     justify-content: center;
@@ -7,7 +8,6 @@
 /* Picture Of Ken Jennings */
 .opening-picture {
     width: 100%;
-    /* height: 15em; */
     height: 15em;
     object-fit: contain;
     margin-top: 0.5em;
@@ -16,11 +16,53 @@
 .play-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 8em;
+    margin-bottom: 9em;
 }
+/* Play button link */
 .play-button a {
     text-decoration: none;
-    font-size: 5em;
+    font-size: 3em;
+    Color:blue;
+    background-color: yellow;
+    animation-name: rainbow;
+    animation-duration: 30s;
+}
+/* Play button animation */
+@keyframes rainbow {
+    0%   {background-color: red;}
+    12.5%  {background-color: orange;}
+    25%  {background-color: yellow;}
+    37.5% {background-color: green;}
+    50%   {background-color: indigo;}
+    62.5%  {background-color: violet;}
+    75%  {background-color: red;}
+    100% {background-color: yellow;}
+}
+/* Desktop */
+@media (min-width: 720px) {
+    /* Box To Align And Contain Main Page Elements */
+.box {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+/* Picture Of Ken Jennings */
+.opening-picture {
+    width: 100%;
+    height: 15em;
+    object-fit: contain;
+    margin-top: 1em;
+}
+/* Play Button To Begin Game */
+.play-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 11em;
+}
+/* Play button link */
+.play-button a {
+    text-decoration: none;
+    font-size: 3em;
     background-color: yellow;
     Color:blue;
 }
